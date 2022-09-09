@@ -14,7 +14,7 @@ node() {
     stage('deploy') {
         cloudFoundryDeploy(
             script: this,
-            cloudFoundry: [org: '30c12a2ctrial', apiEndpoint: 'https://api.cf.ap21.hana.ondemand.com', space: 'dev', credentialsId: 'CF_CREDENTIALSID']
+            cloudFoundry: [org: '30c12a2ctrial_mytrial-mrt', apiEndpoint: 'https://api.cf.us10-001.hana.ondemand.com', space: 'DEV', credentialsId: 'CF_CREDENTIALSID']
         )
     }
 }
