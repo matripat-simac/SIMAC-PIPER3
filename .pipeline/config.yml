@@ -5,8 +5,7 @@ steps:
   cloudFoundryDeploy:
     deployTool: 'mtaDeployPlugin'
     deployType: 'standard'
-    cloudFoundry:
-    
+    cloudFoundry:    
       cfApiEndpoint: 'https://api.cf.us10-001.hana.ondemand.com'
       target: 'https://api.cf.us10-001.hana.ondemand.com/'
       org: '30c12a2ctrial_mytrial-mrt'
