@@ -14,7 +14,7 @@ node() {
     stage('deploy') {
         cloudFoundryDeploy(
             script: this,
-            cloudFoundry: [org: '30c12a2ctrial_mytrial-mrt', apiEndpoint: 'https://api.cf.us10-001.hana.ondemand.com', space: 'DEV', credentialsId: 'CF_CREDENTIALSID']
+            cloudFoundry: [org: 'Simac IT NL B.V._devops-toolchain-5nhqwfg7', apiEndpoint: 'https://api.cf.eu10-004.hana.ondemand.com', space: 'DevOps', credentialsId: 'CF_CREDENTIALSID']
         )
     }
 }
