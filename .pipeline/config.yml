@@ -6,8 +6,8 @@ steps:
     deployTool: 'mtaDeployPlugin'
     deployType: 'standard'
     cloudFoundry:    
-      cfApiEndpoint: 'https://api.cf.us10-001.hana.ondemand.com'
-      target: 'https://api.cf.us10-001.hana.ondemand.com/'
-      org: '30c12a2ctrial_mytrial-mrt'
-      space: 'DEV'
+      cfApiEndpoint: 'https://api.cf.eu10-004.hana.ondemand.com'
+      target: 'https://api.cf.eu10-004.hana.ondemand.com/'
+      org: 'Simac IT NL B.V._devops-toolchain-5nhqwfg7'
+      space: 'DevOps'
       credentialsId: 'CF_CREDENTIALSID'
