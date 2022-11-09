@@ -1,6 +1,6 @@
 _schema-version: 2.1.0
 ID: com.sap.piper.node.hello.world
-version: 1.0.0
+version: 1.0.1
 description: A Hello World sample application
 provider: SAP Sample generator
 
