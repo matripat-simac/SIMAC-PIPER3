@@ -3,7 +3,8 @@ ID: com.sap.piper.node.hello.world
 version: 1.0.1
 description: A Hello World sample application
 provider: SAP Sample generator
-
+build-parameters:
+  before-all:
 modules:
   - name: piper.node.hello.world
     type: nodejs
